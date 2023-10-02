@@ -1,6 +1,7 @@
 import express from 'express'
 import { FruitData } from '../../models/fruit.ts'
-import checkJwt, { JwtRequest } from '../auth0.ts'
+import type { JwtRequest } from '../auth0.ts'
+import checkJwt from '../auth0.ts'
 
 import * as db from '../db/fruits.ts'
 
